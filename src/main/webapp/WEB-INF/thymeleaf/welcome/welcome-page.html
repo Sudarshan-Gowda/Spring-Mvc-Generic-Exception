@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Generic Exception Using Spring</title>
+<link rel="icon" th:href="@{/resources/images/sudarshan-logo.png}" />
+</head>
+<body>
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="index/login-header" th:remove="tag"></div>
+		</div>
+
+
+		<div class="gmail-data">
+			<span>Welcome to custom Exception</span>
+
+		</div>
+
+	</div>
+
+	<div class="star-back-btn">
+		<a th:href="@{/}"><span id="str-lgt">Back</span></a>
+	</div>
+
+
+	<div id="star-body-form">
+		<div class="col-lg-12 col-sm-12 col-xs-12 copyrights">
+			<div th:substituteBy="index/login-footer" th:remove="tag"></div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #D7E1E8;
+	background: url(../../images/pattern.png);
+	font-size: 12px;
+	margin-right: 0px !important;
+}
+
+#fullpage {
+	width: 100%;
+	height: auto;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	/* background-color: #ddd; */
+	background-color: rgba(51, 51, 51, 0.6);
+}
+
+.copyrights {
+	margin-top: 420px;
+	width: 100%;
+	height: auto;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+.modal-header {
+	background-color: #0081c1;
+	color: #fff;
+}
+
+.gmail-link {
+	margin-top: 50px;
+	margin-left: 370px;
+}
+
+.gmail-header {
+	margin-top: 85px;
+	font-size: 20px;
+	color: blue;
+	margin-left: 257px;
+}
+
+.gmail-data {
+	margin-top: 50px;
+	font-size: 18px;
+	margin-left: 450px;
+}
+
+.star-back-btn {
+	font-size: 16px;
+	margin-left: 750px;
+	margin-top: 30px;
+}
+
+.copyrights-login {
+	margin-top: 320px;
+	width: 100%;
+	height: auto;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+.error-div {
+	margin-top: 150px;
+	margin-left: 450px;
+}
+
+.err-msg {
+	font-size: 15px;
+	margin-left: 430px;
+}
+
+.err-bk {
+	font-size: 15px;
+	margin-left: 550px;
+	margin-top: 40px;
+}
+
+.dash-lk-text {
+	font-size: 15px;
+	margin-left: 277px;
+}

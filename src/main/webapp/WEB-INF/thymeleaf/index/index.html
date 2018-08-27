@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Generic Exception Using Spring</title>
+<link rel="icon" th:href="@{/resources/images/sudarshan-logo.png}" />
+
+</head>
+<body>
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="index/login-header" th:remove="tag"></div>
+		</div>
+		<!--header-->
+		<div class="container">
+
+			<div class="gmail-header">
+				<marquee>
+					<span>Generic Exception Using Spring MVC</span>
+				</marquee>
+			</div>
+
+			<div class="dash-lk-text">
+
+				<div>
+					<a th:href="@{'/class-cast'}">Class Cast Exception</a>
+				</div>
+
+				<div>
+					<a th:href="@{'/null-pointer'}">Null Pointer Exception</a>
+				</div>
+
+				<div>
+					<a th:href="@{'/arithmatic'}">Arithmetic Exception</a>
+				</div>
+
+				<div>
+					<a th:href="@{'/nub-form-exp'}">Number Format Exception</a>
+				</div>
+
+				<div>
+					<a th:href="@{'/other'}">Other</a>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-lg-12 col-sm-12 col-xs-12 copyrights-login">
+		<div th:substituteBy="index/login-footer" th:remove="tag"></div>
+	</div>
+</body>
+</html>

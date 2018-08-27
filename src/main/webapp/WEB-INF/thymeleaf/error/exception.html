@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Linked In Integration</title>
+</head>
+<body>
+
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="index/login-header" th:remove="tag"></div>
+		</div>
+		<!--header-->
+
+
+		<div class="error-div">
+
+			<img th:src="@{'/resources/images/error/error2.jpg'}">
+
+		</div>
+		<div class="err-msg">
+			<span>Something went wrong. We are working on that!!</span>
+		</div>
+
+		<div class="err-bk">
+			<span>Click here to go </span> <a th:href="@{'/'}"><span>
+					Back</span></a>
+		</div>
+
+	</div>
+
+	<div class="col-lg-12 col-sm-12 col-xs-12 copyrights-login">
+		<div th:substituteBy="index/login-footer" th:remove="tag"></div>
+	</div>
+
+</body>
+</html>
